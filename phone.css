@@ -1,35 +1,26 @@
 #navbar {
-    flex-direction: column;
-    height: 140px;
-    padding: 10px 10px;
+    flex-direction: row;
+    height: 102px;
+    padding: 0px 0px;
 }
 
 #navbar ul {
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    margin: 3px 10px;
-}
-
-#navbar ul li a {
-
-    font-size: 1rem;
-}
-
+    margin: 2px 7px;
+}   
 #logo img {
-    margin: 10px 0;
-    height: 60px;
-    width: 100px;
+    margin: 0px 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
 #Home {
-    height: 60vh;
+    height: 66vh;
     text-align: center;
     padding: 20px;
-}
-
-#Home h1 {
-    font-size: 1.5rem;
 }
 
 #Home p {
@@ -44,6 +35,8 @@
 #services3 {
     flex-direction: column;
     align-items: center;
+    margin: 0px;
+    padding: 0px 28px;
 }
 
 #services3 .services4 {
@@ -61,11 +54,14 @@
 }
 
 #navbar ul li a {
-    padding: 0px 27px;
+    padding: 0px 12px;
+    font-size: 12px;
 }
 
 #Home h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 0;
+    margin-top: -10px;
 }
 
 #Home p {
@@ -76,13 +72,19 @@
     font-size: 1.2rem;
 }
 
-#services3 .services4 {
-    padding: 20px;
-}
-
 #contact-box form {
     width: 70%;
 }
 #clientss{
     flex-wrap: wrap;
+}
+.center{
+    font-size: 15px;
+    margin: 0px;
+    padding-top: 19px;
+}
+
+#about{
+    padding: 24px;
+    line-height: 1;
 }
