@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-size: 1.2rem;
+}
+
+#logo {
+    margin: 4px 10px;
+}
+
+#logo img {
+    margin: 4px -220px;
+    height: 81px;
+    width: 120px;
+    border-radius: 30px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    opacity: 0.7;
+}
+
+#navbar ul {
+
+    display: flex;
+    align-items: center;
+}
+
+#Home::before {
+    content: "";
+    background: url("./background5.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    opacity: 0.85;
+}
+
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: var(--font-size);
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 16px 70px;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#Home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+#Home h1 {
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+    opacity: 5;
+    font-family: 'Arbutus';
+}
+
+#Home p {
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Fugaz One';
+    text-align: center;
+}
+
+#Home::before {
+    content: "";
+    background: url("./background5.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+.heading1 {
+    padding: 13px;
+    font-size: 1.8rem;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin-top: 12px;
+    margin-bottom: -150px;
+    background-color: chocolate;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.services2 {
+    font-size: 1.8rem;
+    padding: 12px;
+    margin-top: 50px;
+    font-family: 'Fugaz One';
+}
+
+.services5 {
+    font-family: 'Fugaz One';
+    font-size: 1.8rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+#services3 {
+    margin: 20px;
+    padding: 70px;
+    display: flex;
+}
+
+#services3 .services4 {
+    border: 2px solid black;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 30px;
+    background-color: rgb(204, 255, 222);
+}
+
+#services3 .services4 img {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.fontapply {
+    font-family: 'Arapey';
+
+}
+
+#clientss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 20px
+}
+
+.image {
+    padding: 6px 30px;
+    object-fit: contain;
+}
+
+.image img {
+    height: 80px;
+    opacity: 1;
+}
+
+.outside {
+    position: relative;
+    height: 200px;
+}
+
+.outside::before {
+    content: "";
+    position: absolute;
+    background: url('./backgroundimage3.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+#contact {
+    position: relative;
+    margin-bottom: 40px 20px;
+}
+
+#contact ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 7.5;
+    background: url("./contactus.png") no-repeat center center/cover;
+    backdrop-filter: none;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+#contact-box form {
+    width: 30%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+#contact-box label {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #000000;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Fugaz One';
+}
+
+#contact-box input,
+#contact-box textarea,
+#contact-box button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#contact-box input:focus,
+#contact-box textarea:focus {
+    border-color: #ffa07a;
+}
+
+.btn {
+    background-color: chocolate;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.heading1:hover{
+    font-size: 2rem;
+}
+.image img:hover{
+    height: 90px;
+    padding: 0;
+    margin: 0;
+}
+
+.services4:hover{
+    box-shadow:1px 1px 16px 2px  #333 ;
+}
+.services4 h2:hover{
+    color: rgb(250, 153, 153);
+}
+
+/* project3.css */
+html {
+    scroll-behavior: smooth;
+}
+/* Add this to your project3.css file */
+
+/* Style for the About Us section */
+#about {
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+#about h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin: 20px 0;
+    text-align: center;
+    color: #333;
+}
+
+#about-box {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #bcffd6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.about-text strong {
+    font-weight: bold;
+    color: #007bff;
+}
