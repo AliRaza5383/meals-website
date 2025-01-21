@@ -1,6 +1,6 @@
 #navbar {
     flex-direction: row;
-    height: 102px;
+    height: 70px;
     padding: 0px 0px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 #navbar ul li a {
-    padding: 0px 12px;
+    padding: 4px 14px;
     font-size: 12px;
 }
 
@@ -87,4 +87,26 @@
 #about{
     padding: 24px;
     line-height: 1;
+}
+
+@media (max-width: 349px) {
+    #navbar ul li a {
+        padding: 4px 10px;
+        font-size: 11px;
+    }
+    #navbar{
+        height: 56px;
+    }
+    #contact-box input, 
+    #contact-box textarea,
+    #contact-box button {
+        margin-bottom: 0;
+        padding: 5px;
+        font-size: 0.7rem;
+    }
+
+    
+    #contact-box label{
+        font-size: 1.4rem;
+    }
 }
