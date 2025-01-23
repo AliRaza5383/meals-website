@@ -9,9 +9,10 @@
     text-align: center;
     justify-content: center;
     margin: 2px 7px;
-}   
+}
+
 #logo img {
-    margin: 0px 0;
+    margin: 0px 0px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -75,16 +76,18 @@
 #contact-box form {
     width: 70%;
 }
-#clientss{
+
+#clientss {
     flex-wrap: wrap;
 }
-.center{
+
+.center {
     font-size: 15px;
     margin: 0px;
     padding-top: 19px;
 }
 
-#about{
+#about {
     padding: 24px;
     line-height: 1;
 }
@@ -94,10 +97,12 @@
         padding: 4px 10px;
         font-size: 11px;
     }
-    #navbar{
+
+    #navbar {
         height: 56px;
     }
-    #contact-box input, 
+
+    #contact-box input,
     #contact-box textarea,
     #contact-box button {
         margin-bottom: 0;
@@ -105,8 +110,15 @@
         font-size: 0.7rem;
     }
 
-    
-    #contact-box label{
+
+    #contact-box label {
         font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 290px) {
+    #navbar ul li a {
+        padding: 4px 7px;
+        font-size: 10px;
     }
 }
